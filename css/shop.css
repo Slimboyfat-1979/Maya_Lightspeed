@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&display=swap');
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+#shop-wrapper {
+    padding-bottom: 100px;
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+
+.carousel-item img {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.brand-scroll {
+    background-color: black;
+    height: auto;
+    padding: 70px 0;
+    width: 100vw;
+    position: relative;
+}
+
+.brand-scroll.remove {
+    display: none;
+}
+
+
+
+/* ECWID CUSTOM CSS FOR MAYA*/
+
+/*html#ecwid_html body#ecwid_body .ec-size .ec-store * {*/
+/*    color: white !important;*/
+/*}*/
+
+.ec-cart__message {
+    color: white !important;
+}
+
+.form-control__text {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .product-details__product-title {
+    color: var(--main-gold) !important;
+}
+
+
+.grid-category__title-inner {
+    color: var(--main-gold) !important;
+}
+
+.ec-cart-summary__body {
+    color: white !important;
+}
+
+.ec-cart-email__text {
+    color: white !important;
+
+}
+
+.ec-cart-item__title {
+    color: var(--main-gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-text-muted {
+    color: white !important;
+}
+
+.form-control__inline-label {
+    color: white !important;
+}
+
+#ec-cart-email-input {
+    color: white !important;
+}
+
+.ec-header-h4, .ec-cart-next__title {
+    color: var(--main-gold);
+}
+
+.ec-cart-summary__note {
+    color: white !important;
+}
+
+.ec-cart-shopping__wrap {
+    color: white !important;
+}
+
+.ec-cart-item__price-inner {
+    color: white !important;
+}
+
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-item__title, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-cart-item__title-visited {
+    color: var(--main-gold);
+}
+
+.ins-tile--product-browser .ec-size div.ecwid-productBrowser .ec-store .ec-header-h3,
+.ec-size .ec-store .details-product-price__value {
+    color:white !important;
+}
+
+.ec-size .ec-store .product-details  {color: white;}
+
+.ec-size .ec-store .grid-product__wrap-inner:hover .grid-product__title .grid-product__title-inner,
+.ec-size .ec-store .grid-product__price-amount:hover {color:red;}
+
+
+Category Titles
+.grid-category__title-inner {
+    color: var(--main-gold) !important;
+    /*border-bottom: 1px solid var(--main-gold) !important;*/
+}
+
+.grid-category__title-inner:hover {
+    color: white  !important;
+}
+
+/*Featured Products*/
+.page-title__name {
+    color: var(--main-gold);
+}
+
+/*Individual Products*/
+.grid-product__title-inner {
+    color: var(--main-gold) !important;
+}
+
+/*Individual Prices*/
+.grid-product__price-value {
+    color: white !important;
+}
+
+/*Search Widget*/
+.ecwid-search-widget {
+   padding: 10px 0 10px 10px !important;
+}
+
+.horizontal-menu {
+    /*transform: translateX(-20px) !important;*/
+    padding: 5px 0 5px 0 !important;
+}
+
+
+.product-details__product-title {
+    color: var(--main-gold) !important;
+}
+
+.details-product-price__value {
+    color: white !important;
+}
+
+product-details-module__title {
+    color: white !important;
+}
+
+
+
+.breadcrumbs__link {
+    color: white !important;
+}
+
+.ex-text-muted {
+    color: white !important;
+}
+
+.ecwid-productBrowser {
+    padding: 0 !important;
+}
+
+.pager__number {
+    color: white !important;
+}
+
+.pager__number--current {
+    color: var(--main-gold) !important;
+}
+
+.pager__button-text, .svg-icon {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted, html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-link--muted-visited {
+    color: white !important;
+}
+
+.ec-cart-item__control-inner {
+    color: white !important;
+}
+
+.ec-cart-step__text {
+    color: white !important;
+}
+
+.ec-cart-step__title,
+.ec-header-h6 {
+    color: var(--main-gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store h1, html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .ec-header-h1 {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store.ec-store__account-page .ec-confirmation__steps .ec-cart__products {
+    color: white;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .form-control:not(.form-control--loading) .form-control__button {
+    background-color: var(--main-gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-likely__button {
+    background-color: var(--main-gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-likely__icon {
+    background-color: var(--main-gold) !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .ec-cart__message {
+    color: white;
+}
+
+.ec-confirmation__title {
+    color: white !important;
+}
+
+.ec-confirmation__section {
+    color: white !important;
+}
+
+.ec-tabs__text {
+    color: white;
+ }
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .ec-tabs__text {
+    color: white !important;
+}
+
+html#ecwid_html body#ecwid_body .ec-size.ec-size--l .ec-store .form-control__text {
+    color: white !important;
+}
+
+/*.ec-link ec-link--muted pager__number pager__number--current {*/
+/*    color: white !important;*/
+/*}*/
+
+/*.pager__pages {*/
+/*    color: white !important;*/
+/*}*/
+
+
+/* ECWID CUSTOM CSS FOR MAYA ENDS */
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .brand-scroll {
+        background-color: black;
+        height: auto;
+        padding: 0 0 0 0;
+        width: 100vw;
+        position: relative;
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+

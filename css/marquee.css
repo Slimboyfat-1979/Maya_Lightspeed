@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#marquee {
+    background-color: white;
+    color: #111;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.marquee {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    padding: 50px 0;
+}
+
+.marquee::before, .marquee::after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.marquee::before {
+    left: 0;
+    background: linear-gradient(to right, black 0%, transparent 100%);
+}
+
+.marquee::after {
+    right: 0;
+    background: linear-gradient(to left, black 0%, transparent 100%);
+}
+
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 14s linear infinite;
+}
+
+@keyframes scrolling {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-180vw) }
+}
+
+.marquee-content li {
+    display: flex;
+    width: 20vw;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    white-space: nowrap;
+}
+
+.marquee-content li img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.cort {
+    width: 125px !important;
+    height: 125px !important;
+    object-fit: contain !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .marquee-content li img {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+    }
+
+    .cort {
+        width: 60px !important;
+        height: 60px !important;
+        object-fit: contain !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .marquee-content li {
+        padding: 0 50px;
+    }
+
+    .marquee-content li img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .cort {
+        width: 40px !important;
+        height: 40px !important;
+        object-fit: contain !important;
+    }
+}
+
+
+
+/*@media (max-width: 820px) {*/
+
+/*    .marquee-content li img {*/
+/*        width: 120px;*/
+/*        height: 120px;*/
+/*        object-fit: contain;*/
+/*    }*/
+
+/*    .cort {*/
+/*        width: 60px !important;*/
+/*        height: 60px !important;*/
+/*        object-fit: contain !important;*/
+/*    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&display=swap');
+
+.container {
+     padding-top: 1px;
+}
+
+h3 {
+     font-family: 'Roboto';
+}
+
+#next {
+     height: auto;
+     width: 100vw;
+     margin-top: 4.5%;
+     background-position: center;
+     color: white !important;
+     position: relative;
+     background: black;
+     padding-bottom: 300px;
+}
+
+.img {
+     background: url("../assets/images/misc/Install-new-guitar-strings-ImResizer.jpg");
+     width: 100vw;
+     height: 50vh;
+     background-size: cover;
+     background-position: 0 0;
+     background-repeat: no-repeat;
+     position: relative;
+     z-index: 1;
+}
+
+.overlay {
+     position: absolute;
+     z-index: 2;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(0, 0 , 0, 0.6);
+}
+
+.text-container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-family: 'Roboto';
+     padding-top: 270px;
+}
+
+.text-container h1 {
+     color: white;
+     position: relative;
+     z-index: 2;
+     color: var(--main-gold);
+     font-family: Roboto;
+}
+
+.text-container h4 {
+     color: white;
+     z-index: 2;
+}
+
+.row {
+     margin: 50px auto
+}
+
+.services {
+     margin: 90px auto;
+     text-align: center;
+}
+
+h1 {
+     font-family: 'Roboto';
+     letter-spacing: 1px;
+     color: white;
+}
+
+h3 {
+     color: var(--main-gold);
+     text-align: justify;
+}
+
+
+
+.icon {
+     border: 1px solid var(--main-gold);
+      height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     font-size: 1.5rem;
+     /*margin: 0 auto 20px;*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 35px;
+     color: var(--main-gold);
+
+}
+
+p > a {
+     color: var(--main-gold) !important;
+}
+
+p {
+     line-height: 30px;
+     color: white;
+     font-family: 'Roboto';
+     text-align: justify;
+}
+
+#footer-relative {
+ position: absolute;
+}
+
+
+
+/* ================== RESPONSIVE SITE HERE =================== */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+     #next {
+          margin-top: 0;
+     }
+
+     .text-center {
+          margin-top: 20px;
+          margin-bottom: 20px;
+     }
+
+     .text-center .icon {
+          margin: 0 auto;
+          margin-bottom: 10px;
+     }
+
+     .text-center h3 {
+          text-align: center !important;
+     }
+
+     .img {
+          background: url("../assets/images/misc/Install-new-guitar-strings-ImResizer.jpg");
+          width: 100vw;
+          height: 50vh;
+          background-size: cover;
+          /*background-position: 0 -600px;*/
+          background-repeat: no-repeat;
+          position: relative;
+          z-index: 1;
+          /*padding-bottom: 200px;*/
+     }
+
+     .member-text {
+          margin-top:  100px;
+     }
+
+
+}
+
+@media(max-width: 767px) {
+
+     #next {
+          margin-top: 0;
+     }
+
+     .text-center .icon {
+          margin: 0 auto;
+          margin-bottom: 10px;
+     }
+
+     .text-center h3 {
+          text-align: center !important;
+     }
+
+     p {
+          font-size: 0.75rem;
+     }
+
+     h4 {
+          text-align: center;
+     }
+}
+
+  
+
+
